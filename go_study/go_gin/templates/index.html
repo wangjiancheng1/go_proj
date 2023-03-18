@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>go Web页面</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/index.css">
+
+</head>
+<body>
+    <h1>Hello world</h1>
+    <div>获取返回来的数据:{{.msg}}</div>
+
+<form action="/user/add" method="post">
+    <p>userName : <input type="text" name="userName"></p>
+    <p>userId : <input type="text" name="userId"></p>
+    <button type="submit">提交</button>
+</form>
+</body>
+</html>
